@@ -1,0 +1,1224 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+mconf-idf is not required on this platform
+mconf-idf is not required on this platform
+ 
+The following Python requirements are not satisfied:
+pyparsing>=2.0.3,<2.4.0
+idf-component-manager~=1.0
+gdbgui==0.13.2.0
+pygdbmi<=0.9.0.2
+python-socketio<5
+jinja2<3.1  # See https://github.com/espressif/esp-idf/issues/8760
+itsdangerous<2.1
+kconfiglib==13.7.1
+construct==2.10.54
+To install the missing packages, please run "/home/oscar/esp_vscode/esp-idf/install.sh"
+Diagnostic information:
+    IDF_PYTHON_ENV_PATH: /usr/bin/python3
+    Python interpreter used: /usr/bin/python
+    Warning: python interpreter not running from IDF_PYTHON_ENV_PATH
+    PATH: /home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 18:29:37 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/105
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 150)
+EXTRA_COMPONENT_DIRS = 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 25)
+V = $(VERBOSE)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"de","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:89050
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 53)
+NON_INTERACTIVE_TARGET = defconfig clean% %clean help list-components print_flash_cmd check_python_dependencies
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 227)
+TEST_COMPONENT_NAMES := 
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 1)
+MAKEFILE_LIST :=  Makefile /home/oscar/esp_vscode/esp-idf/make/project.mk /home/oscar/esp_vscode/esp-idf/make/common.mk /home/oscar/esp_vscode/esp-idf/make/version.mk /home/oscar/esp_vscode/esp-idf/make/project_config.mk
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 11)
+SDKCONFIG_MAKEFILE = $(abspath $(BUILD_DIR_BASE)/include/config/auto.conf)
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = oscar
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 238)
+HOSTCC := gcc
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/version.mk', line 3)
+IDF_VERSION_PATCH := 1
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 239)
+HOSTLD := ld
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 155)
+COMPONENT_DIRS := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/components /home/oscar/esp_vscode/esp-idf/components /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/main
+# environment
+_ = /snap/code/105/usr/share/code/code
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 142)
+BUILD_DIR_BASE := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/build
+# environment
+MANAGERPID = 12971
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 72)
+DEFAULTS_ARG := 
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/oscar
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 231)
+LD = ld
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/oscar-X470-AORUS-ULTRA-GAMING:@/tmp/.ICE-unix/13190,unix/oscar-X470-AORUS-ULTRA-GAMING:/tmp/.ICE-unix/13190
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/oscar/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/105
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 118)
+define RunMenuConf
+	mkdir -p $(BUILD_DIR_BASE)/include/config
+	cd $(BUILD_DIR_BASE); KCONFIG_AUTOHEADER=$(abspath $(BUILD_DIR_BASE)/include/sdkconfig.h) KCONFIG_CONFIG=$(SDKCONFIG) COMPONENT_KCONFIGS_SOURCE_FILE="$(COMPONENT_KCONFIGS_SOURCE_FILE)" COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE="$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)" IDF_CMAKE=n IDF_ENV_FPGA=n $(MENUCONFIG_CMD) $(IDF_PATH)/Kconfig
+endef
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 30)
+summary := @echo
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 50)
+dequote = $(subst ",,$(1))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/version.mk', line 2)
+IDF_VERSION_MINOR := 4
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 91)
+uniq = $(if $1,$(firstword $1) $(call uniq,$(filter-out $(firstword $1),$1)))
+# environment
+SNAP_VERSION = e4503b30
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 216)
+TESTS_ALL = 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 232)
+AR = ar
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 970d80e2e05d419dbaf11229f78a9e3c
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 99)
+stripLeadingParentDirs = $(foreach path,$(1),$(if $(subst ..,,$(path)),$(if $(filter ../%,$(path)),$(call stripLeadingParentDirs,$(patsubst ../%,%,$(path))),$(path)),.))
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 83)
+define RunConfGen
+	mkdir -p $(BUILD_DIR_BASE)/include/config
+	$(PYTHON) $(IDF_PATH)/tools/kconfig_new/confgen.py --kconfig $(IDF_PATH)/Kconfig --config $(SDKCONFIG) --sdkconfig-rename $(SDKCONFIG_RENAME) --env "COMPONENT_KCONFIGS=$(strip $(COMPONENT_KCONFIGS))" --env "COMPONENT_KCONFIGS_PROJBUILD=$(strip $(COMPONENT_KCONFIGS_PROJBUILD))" --env "COMPONENT_KCONFIGS_SOURCE_FILE=$(COMPONENT_KCONFIGS_SOURCE_FILE)" --env "COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)" --env "COMPONENT_SDKCONFIG_RENAMES=$(strip $(COMPONENT_SDKCONFIG_RENAMES))" --env "IDF_CMAKE=n" --env "IDF_ENV_FPGA=n" $(DEFAULTS_ARG) --output config ${SDKCONFIG} --output makefile $(SDKCONFIG_MAKEFILE) --output header $(BUILD_DIR_BASE)/include/sdkconfig.h $1
+endef
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 22892
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 235)
+SIZE = size
+# automatic
+%F = $(notdir $%)
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 5)
+COMPONENT_KCONFIGS_PROJBUILD :=  /home/oscar/esp_vscode/esp-idf/components/app_update/Kconfig.projbuild  /home/oscar/esp_vscode/esp-idf/components/bootloader/Kconfig.projbuild                                  /home/oscar/esp_vscode/esp-idf/components/esp_rom/Kconfig.projbuild       /home/oscar/esp_vscode/esp-idf/components/esptool_py/Kconfig.projbuild                      /home/oscar/esp_vscode/esp-idf/components/partition_table/Kconfig.projbuild                 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 31)
+details := @true
+# environment
+DISPLAY = :1
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 215)
+TEST_EXCLUDE_COMPONENTS = 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 21)
+KCONFIG_TOOL_DIR = $(IDF_PATH)/tools/kconfig
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 240)
+HOSTAR := ar
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project
+# default
+.LOADED := 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 27)
+SDKCONFIG_RENAME = $(IDF_PATH)/sdkconfig.rename
+# environment
+SSH_AGENT_PID = 13154
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 61)
+PYTHON = python
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 183)
+COMPONENTS := app_trace app_update asio bootloader bootloader_support bt cbor cmock coap console cxx driver efuse esp-tls esp32 esp32c3 esp32h2 esp32s2 esp32s3 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_ipc esp_lcd esp_local_ctrl esp_netif esp_phy esp_pm esp_ringbuf esp_rom esp_serial_slave_link esp_system esp_timer esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos hal heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/oscar
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/oscar/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = oscar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = LCYYL1P7dX2zK2LsD-XQ8oTkr4K3SRLIizkczsDn7r9bBEy8stEc
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 108)
+MENUCONFIG_CMD := python -m menuconfig
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 7)
+COMPONENT_KCONFIGS_SOURCE_FILE := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/build/kconfigs.in
+# environment
+SNAP_USER_COMMON = /home/oscar/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 223)
+TEST_COMPONENTS_LIST := 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 124)
+PROJECT_PATH := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/oscar
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 24)
+VERBOSE = 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 168)
+MULTI_COMPONENT_DIRS := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/components /home/oscar/esp_vscode/esp-idf/components
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/oscar/snap/code/105
+# environment
+SHLVL = 0
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 230)
+CC = gcc
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 164)
+SINGLE_COMPONENT_DIRS := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/main
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = oscar
+# environment
+SNAP_REVISION = 105
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 83)
+prereq_if_explicit = $(filter $(1),$(MAKECMDGOALS))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/version.mk', line 1)
+IDF_VERSION_MAJOR := 4
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 47)
+SEPARATOR := "*******************************************************************************"
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 205)
+ 
+make: *** No rule to make target 'check_python_dependencies', needed by 'all'.  Stop.
+
+COMPONENT_PATHS :=  /home/oscar/esp_vscode/esp-idf/components/app_trace  /home/oscar/esp_vscode/esp-idf/components/app_update  /home/oscar/esp_vscode/esp-idf/components/asio  /home/oscar/esp_vscode/esp-idf/components/bootloader  /home/oscar/esp_vscode/esp-idf/components/bootloader_support  /home/oscar/esp_vscode/esp-idf/components/bt  /home/oscar/esp_vscode/esp-idf/components/cbor  /home/oscar/esp_vscode/esp-idf/components/cmock  /home/oscar/esp_vscode/esp-idf/components/coap  /home/oscar/esp_vscode/esp-idf/components/console  /home/oscar/esp_vscode/esp-idf/components/cxx  /home/oscar/esp_vscode/esp-idf/components/driver  /home/oscar/esp_vscode/esp-idf/components/efuse  /home/oscar/esp_vscode/esp-idf/components/esp-tls  /home/oscar/esp_vscode/esp-idf/components/esp32  /home/oscar/esp_vscode/esp-idf/components/esp32c3  /home/oscar/esp_vscode/esp-idf/components/esp32h2  /home/oscar/esp_vscode/esp-idf/components/esp32s2  /home/oscar/esp_vscode/esp-idf/components/esp32s3  /home/oscar/esp_vscode/esp-idf/components/esp_adc_cal  /home/oscar/esp_vscode/esp-idf/components/esp_common  /home/oscar/esp_vscode/esp-idf/components/esp_eth  /home/oscar/esp_vscode/esp-idf/components/esp_event  /home/oscar/esp_vscode/esp-idf/components/esp_gdbstub  /home/oscar/esp_vscode/esp-idf/components/esp_hid  /home/oscar/esp_vscode/esp-idf/components/esp_http_client  /home/oscar/esp_vscode/esp-idf/components/esp_http_server  /home/oscar/esp_vscode/esp-idf/components/esp_https_ota  /home/oscar/esp_vscode/esp-idf/components/esp_https_server  /home/oscar/esp_vscode/esp-idf/components/esp_hw_support  /home/oscar/esp_vscode/esp-idf/components/esp_ipc  /home/oscar/esp_vscode/esp-idf/components/esp_lcd  /home/oscar/esp_vscode/esp-idf/components/esp_local_ctrl  /home/oscar/esp_vscode/esp-idf/components/esp_netif  /home/oscar/esp_vscode/esp-idf/components/esp_phy  /home/oscar/esp_vscode/esp-idf/components/esp_pm  /home/oscar/esp_vscode/esp-idf/components/esp_ringbuf  /home/oscar/esp_vscode/esp-idf/components/esp_rom  /home/oscar/esp_vscode/esp-idf/components/esp_serial_slave_link  /home/oscar/esp_vscode/esp-idf/components/esp_system  /home/oscar/esp_vscode/esp-idf/components/esp_timer  /home/oscar/esp_vscode/esp-idf/components/esp_websocket_client  /home/oscar/esp_vscode/esp-idf/components/esp_wifi  /home/oscar/esp_vscode/esp-idf/components/espcoredump  /home/oscar/esp_vscode/esp-idf/components/esptool_py  /home/oscar/esp_vscode/esp-idf/components/expat  /home/oscar/esp_vscode/esp-idf/components/fatfs  /home/oscar/esp_vscode/esp-idf/components/freemodbus  /home/oscar/esp_vscode/esp-idf/components/freertos  /home/oscar/esp_vscode/esp-idf/components/hal  /home/oscar/esp_vscode/esp-idf/components/heap  /home/oscar/esp_vscode/esp-idf/components/idf_test  /home/oscar/esp_vscode/esp-idf/components/jsmn  /home/oscar/esp_vscode/esp-idf/components/json  /home/oscar/esp_vscode/esp-idf/components/libsodium  /home/oscar/esp_vscode/esp-idf/components/log  /home/oscar/esp_vscode/esp-idf/components/lwip  /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/main  /home/oscar/esp_vscode/esp-idf/components/mbedtls  /home/oscar/esp_vscode/esp-idf/components/mdns  /home/oscar/esp_vscode/esp-idf/components/mqtt  /home/oscar/esp_vscode/esp-idf/components/newlib  /home/oscar/esp_vscode/esp-idf/components/nghttp  /home/oscar/esp_vscode/esp-idf/components/nvs_flash  /home/oscar/esp_vscode/esp-idf/components/openssl  /home/oscar/esp_vscode/esp-idf/components/openthread  /home/oscar/esp_vscode/esp-idf/components/partition_table  /home/oscar/esp_vscode/esp-idf/components/perfmon  /home/oscar/esp_vscode/esp-idf/components/protobuf-c  /home/oscar/esp_vscode/esp-idf/components/protocomm  /home/oscar/esp_vscode/esp-idf/components/pthread  /home/oscar/esp_vscode/esp-idf/components/sdmmc  /home/oscar/esp_vscode/esp-idf/components/soc  /home/oscar/esp_vscode/esp-idf/components/spi_flash  /home/oscar/esp_vscode/esp-idf/components/spiffs  /home/oscar/esp_vscode/esp-idf/components/tcp_transport  /home/oscar/esp_vscode/esp-idf/components/tcpip_adapter  /home/oscar/esp_vscode/esp-idf/components/ulp  /home/oscar/esp_vscode/esp-idf/components/unity  /home/oscar/esp_vscode/esp-idf/components/vfs  /home/oscar/esp_vscode/esp-idf/components/wear_levelling  /home/oscar/esp_vscode/esp-idf/components/wifi_provisioning  /home/oscar/esp_vscode/esp-idf/components/wpa_supplicant  /home/oscar/esp_vscode/esp-idf/components/xtensa
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 76)
+OS = 
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b6f35f9c-1.70.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrRs
+# environment
+MFLAGS = -pqrRs
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/common.mk', line 69)
+resolvepath = $(abspath $(foreach dir,$(1),$(if $(filter /%,$(dir)),$(dir),$(subst //,/,$(2)/$(dir)))))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 89)
+IDF_PATH := /home/oscar/esp_vscode/esp-idf
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 6)
+COMPONENT_SDKCONFIG_RENAMES := /home/oscar/esp_vscode/esp-idf/components/app_trace/sdkconfig.rename   /home/oscar/esp_vscode/esp-idf/components/bootloader/sdkconfig.rename  /home/oscar/esp_vscode/esp-idf/components/bt/sdkconfig.rename      /home/oscar/esp_vscode/esp-idf/components/driver/sdkconfig.rename   /home/oscar/esp_vscode/esp-idf/components/esp32/sdkconfig.rename        /home/oscar/esp_vscode/esp-idf/components/esp_event/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/esp_gdbstub/sdkconfig.rename      /home/oscar/esp_vscode/esp-idf/components/esp_hw_support/sdkconfig.rename     /home/oscar/esp_vscode/esp-idf/components/esp_phy/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/esp_pm/sdkconfig.rename    /home/oscar/esp_vscode/esp-idf/components/esp_system/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/esp_timer/sdkconfig.rename  /home/oscar/esp_vscode/esp-idf/components/esp_wifi/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/espcoredump/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/esptool_py/sdkconfig.rename   /home/oscar/esp_vscode/esp-idf/components/freemodbus/sdkconfig.rename /home/oscar/esp_vscode/esp-idf/components/freertos/sdkconfig.rename        /home/oscar/esp_vscode/esp-idf/components/lwip/sdkconfig.rename              /home/oscar/esp_vscode/esp-idf/components/pthread/sdkconfig.rename   /home/oscar/esp_vscode/esp-idf/components/spi_flash/sdkconfig.rename      /home/oscar/esp_vscode/esp-idf/components/vfs/sdkconfig.rename    
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 234)
+OBJDUMP = objdump
+# environment
+GDK_BACKEND = x11
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 66)
+SDKCONFIG_DEFAULTS_FILES := $(subst ,, )
+# automatic
++F = $(notdir $+)
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 86)
+SANITISED_IDF_PATH := /home/oscar/esp_vscode/esp-idf
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = LCYYL1P7dX2zK2LsD-XQ8oTkr4K3SRLIizkczsDn7r9bBEy8stEc
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 6)
+PROJECT_NAME := sample_project
+# environment
+SNAP_NAME = code
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 226)
+TEST_COMPONENT_PATHS := 
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 118)
+MAKEFLAGS_OLD := pqrR
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 233)
+OBJCOPY = objcopy
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 31)
+SDKCONFIG_DEFAULTS = $(PROJECT_PATH)/sdkconfig.defaults
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 129)
+COMMON_MAKEFILES := /home/oscar/esp_vscode/esp-idf/make/project.mk /home/oscar/esp_vscode/esp-idf/make/common.mk /home/oscar/esp_vscode/esp-idf/make/version.mk /home/oscar/esp_vscode/esp-idf/make/component_wrapper.mk /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/Makefile
+# environment
+WINDOWPATH = 2
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 100)
+IDF_TARGET := esp32
+# environment
+IDF_PYTHON_ENV_PATH = /usr/bin/python3
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 214)
+TEST_COMPONENTS = 
+# default
+.RECIPEPREFIX := 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 242)
+HOSTSIZE := size
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 25)
+SDKCONFIG = $(PROJECT_PATH)/sdkconfig
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 4)
+COMPONENT_KCONFIGS := /home/oscar/esp_vscode/esp-idf/components/app_trace/Kconfig  /home/oscar/esp_vscode/esp-idf/components/asio/Kconfig   /home/oscar/esp_vscode/esp-idf/components/bt/Kconfig   /home/oscar/esp_vscode/esp-idf/components/coap/Kconfig   /home/oscar/esp_vscode/esp-idf/components/driver/Kconfig /home/oscar/esp_vscode/esp-idf/components/efuse/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp-tls/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32c3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32h2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_adc_cal/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_common/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_eth/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_event/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_gdbstub/Kconfig  /home/oscar/esp_vscode/esp-idf/components/esp_http_client/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_http_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_ota/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_hw_support/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_ipc/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_lcd/Kconfig  /home/oscar/esp_vscode/esp-idf/components/esp_netif/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_phy/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_pm/Kconfig    /home/oscar/esp_vscode/esp-idf/components/esp_system/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_timer/Kconfig  /home/oscar/esp_vscode/esp-idf/components/esp_wifi/Kconfig /home/oscar/esp_vscode/esp-idf/components/espcoredump/Kconfig   /home/oscar/esp_vscode/esp-idf/components/fatfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/freemodbus/Kconfig /home/oscar/esp_vscode/esp-idf/components/freertos/Kconfig /home/oscar/esp_vscode/esp-idf/components/hal/Kconfig /home/oscar/esp_vscode/esp-idf/components/heap/Kconfig  /home/oscar/esp_vscode/esp-idf/components/jsmn/Kconfig  /home/oscar/esp_vscode/esp-idf/components/libsodium/Kconfig /home/oscar/esp_vscode/esp-idf/components/log/Kconfig /home/oscar/esp_vscode/esp-idf/components/lwip/Kconfig  /home/oscar/esp_vscode/esp-idf/components/mbedtls/Kconfig /home/oscar/esp_vscode/esp-idf/components/mdns/Kconfig /home/oscar/esp_vscode/esp-idf/components/mqtt/Kconfig /home/oscar/esp_vscode/esp-idf/components/newlib/Kconfig  /home/oscar/esp_vscode/esp-idf/components/nvs_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/openssl/Kconfig /home/oscar/esp_vscode/esp-idf/components/openthread/Kconfig     /home/oscar/esp_vscode/esp-idf/components/pthread/Kconfig   /home/oscar/esp_vscode/esp-idf/components/spi_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/spiffs/Kconfig /home/oscar/esp_vscode/esp-idf/components/tcp_transport/Kconfig   /home/oscar/esp_vscode/esp-idf/components/unity/Kconfig /home/oscar/esp_vscode/esp-idf/components/vfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/wear_levelling/Kconfig /home/oscar/esp_vscode/esp-idf/components/wifi_provisioning/Kconfig /home/oscar/esp_vscode/esp-idf/components/wpa_supplicant/Kconfig 
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 241)
+HOSTOBJCOPY := objcopy
+# environment
+LANG = C
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 8)
+COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE := /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/build/kconfigs_projbuild.in
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 187)
+EXCLUDE_COMPONENTS = 
+# environment
+VSCODE_PID = 22942
+# makefile (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 103)
+MENUCONFIG_STYLE = aquatic
+# variable set hash-table stats:
+# Load=180/1024=18%, Rehash=0, Collisions=139/980=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /home/oscar/esp_vscode/esp-idf/tools/kconfig (device 66308, inode 27004868): 36 files, no impossibilities.
+# . (device 66308, inode 28189693): 9 files, no impossibilities.
+# /home/oscar/esp_vscode/esp-idf/components (device 66308, inode 27527677): 92 files, no impossibilities.
+# /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/components: could not be stat'd.
+
+# 137 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/mdns/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+config-clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 177):
+	$(summary) RM CONFIG
+	rm -rf $(BUILD_DIR_BASE)/include/config $(BUILD_DIR_BASE)/include/sdkconfig.h \
+		$(COMPONENT_KCONFIGS_SOURCE_FILE) $(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/make/project.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:08.788949835
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp32c3/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: all_binaries | check_python_dependencies
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_timer/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build-components menuconfig defconfig all build clean all_binaries check-submodules size size-components size-files size-symbols list-components check_python_dependencies term_check config-clean defconfig menuconfig
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/partition_table/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/coap/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all_binaries:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/fatfs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/bt/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp32s3/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.096955788
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/vfs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_lcd/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/driver/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+list-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_adc_cal/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/mqtt/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/make/common.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:08.788949835
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-25 18:29:33.9293989
+ 
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/jsmn/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_wifi/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+prepare_kconfig_files:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 75):
+	mkdir -p $(BUILD_DIR_BASE)
+	$(PYTHON) $(IDF_PATH)/tools/kconfig_new/prepare_kconfig_files.py \
+		--env "COMPONENT_KCONFIGS=$(strip $(COMPONENT_KCONFIGS))" \
+		--env "COMPONENT_KCONFIGS_PROJBUILD=$(strip $(COMPONENT_KCONFIGS_PROJBUILD))" \
+		--env "COMPONENT_KCONFIGS_SOURCE_FILE=$(COMPONENT_KCONFIGS_SOURCE_FILE)" \
+		--env "COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=$(COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE)"
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_ipc/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/make/version.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:08.792949911
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.10895602
+#  File has been updated.
+#  Successfully updated.
+
+check-submodules:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+defconfig: | check_python_dependencies prepare_kconfig_files
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 159):
+	$(summary) DEFCONFIG
+	$(call RunConfGen,)
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/log/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_rom/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.084955556
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_hw_support/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+check_python_dependencies:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := check_python_dependencies
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/14=14%
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 252):
+	$(PYTHON) $(IDF_PATH)/tools/check_python_dependencies.py
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp-tls/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.09295571
+#  File has been updated.
+#  Successfully updated.
+
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf: /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y
+# automatic
+# | := 
+# automatic
+# < := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c
+# automatic
+# ^ := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y
+# automatic
+# ? := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 43):
+	@echo "mconf-idf is not required on this platform"
+
+size-files:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.112956097
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.112956097
+#  File has been updated.
+#  Successfully updated.
+
+size:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_netif/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/hal/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_http_server/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_system/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project.mk', line 25):
+	@echo "Welcome to Espressif IDF build system. Some useful make targets:"
+	@echo ""
+	@echo "make menuconfig - Configure IDF project"
+	@echo "make defconfig - Set defaults for all new configuration options"
+	@echo ""
+	@echo "make all - Build app, bootloader, partition table"
+	@echo "make flash - Flash app, bootloader, partition table to a chip"
+	@echo "make clean - Remove all build output"
+	@echo "make size - Display the static memory footprint of the app"
+	@echo "make size-components, size-files - Finer-grained memory footprints"
+	@echo "make size-symbols - Per symbol memory footprint. Requires COMPONENT=<component>"
+	@echo "make erase_flash - Erase entire flash contents"
+	@echo "make erase_otadata - Erase ota_data partition; First bootable partition (factory or OTAx) will be used on next boot."
+	@echo "                     This assumes this project's partition table is the one flashed on the device."
+	@echo "make monitor - Run idf_monitor tool to monitor serial output from app"
+	@echo "make simple_monitor - Monitor serial output on terminal console"
+	@echo "make list-components - List all components in the project"
+	@echo ""
+	@echo "make app - Build just the app"
+	@echo "make app-flash - Flash just the app"
+	@echo "make app-clean - Clean just the app"
+	@echo "make print_flash_cmd - Print the arguments for esptool when flash"
+	@echo "make check_python_dependencies - Check that the required python packages are installed"
+	@echo ""
+	@echo "See also 'make bootloader', 'make bootloader-flash', 'make bootloader-clean', "
+	@echo "'make partition_table', etc, etc."
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/openthread/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/espcoredump/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_event/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/build/include/sdkconfig.h: /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/sdkconfig /home/oscar/esp_vscode/esp-idf/components/app_trace/Kconfig /home/oscar/esp_vscode/esp-idf/components/asio/Kconfig /home/oscar/esp_vscode/esp-idf/components/bt/Kconfig /home/oscar/esp_vscode/esp-idf/components/coap/Kconfig /home/oscar/esp_vscode/esp-idf/components/driver/Kconfig /home/oscar/esp_vscode/esp-idf/components/efuse/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp-tls/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32c3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32h2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_adc_cal/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_common/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_eth/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_event/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_gdbstub/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_http_client/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_http_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_ota/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_hw_support/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_ipc/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_lcd/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_netif/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_phy/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_pm/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_system/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_timer/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_wifi/Kconfig /home/oscar/esp_vscode/esp-idf/components/espcoredump/Kconfig /home/oscar/esp_vscode/esp-idf/components/fatfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/freemodbus/Kconfig /home/oscar/esp_vscode/esp-idf/components/freertos/Kconfig /home/oscar/esp_vscode/esp-idf/components/hal/Kconfig /home/oscar/esp_vscode/esp-idf/components/heap/Kconfig /home/oscar/esp_vscode/esp-idf/components/jsmn/Kconfig /home/oscar/esp_vscode/esp-idf/components/libsodium/Kconfig /home/oscar/esp_vscode/esp-idf/components/log/Kconfig /home/oscar/esp_vscode/esp-idf/components/lwip/Kconfig /home/oscar/esp_vscode/esp-idf/components/mbedtls/Kconfig /home/oscar/esp_vscode/esp-idf/components/mdns/Kconfig /home/oscar/esp_vscode/esp-idf/components/mqtt/Kconfig /home/oscar/esp_vscode/esp-idf/components/newlib/Kconfig /home/oscar/esp_vscode/esp-idf/components/nvs_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/openssl/Kconfig /home/oscar/esp_vscode/esp-idf/components/openthread/Kconfig /home/oscar/esp_vscode/esp-idf/components/pthread/Kconfig /home/oscar/esp_vscode/esp-idf/components/spi_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/spiffs/Kconfig /home/oscar/esp_vscode/esp-idf/components/tcp_transport/Kconfig /home/oscar/esp_vscode/esp-idf/components/unity/Kconfig /home/oscar/esp_vscode/esp-idf/components/vfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/wear_levelling/Kconfig /home/oscar/esp_vscode/esp-idf/components/wifi_provisioning/Kconfig /home/oscar/esp_vscode/esp-idf/components/wpa_supplicant/Kconfig /home/oscar/esp_vscode/esp-idf/components/app_update/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/bootloader/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/esp_rom/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/esptool_py/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/partition_table/Kconfig.projbuild | check_python_dependencies prepare_kconfig_files
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 165):
+	$(summary) GENCONFIG
+	$(call RunConfGen,)
+	touch $(SDKCONFIG_MAKEFILE) $(BUILD_DIR_BASE)/include/sdkconfig.h  # ensure newer than sdkconfig
+
+size-symbols:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/tcp_transport/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+/home/oscar/esp_vscode/esp-idf/components/freertos/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/lwip/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/unity/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_common/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_eth/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/build/include/config/auto.conf: /home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/sdkconfig /home/oscar/esp_vscode/esp-idf/components/app_trace/Kconfig /home/oscar/esp_vscode/esp-idf/components/asio/Kconfig /home/oscar/esp_vscode/esp-idf/components/bt/Kconfig /home/oscar/esp_vscode/esp-idf/components/coap/Kconfig /home/oscar/esp_vscode/esp-idf/components/driver/Kconfig /home/oscar/esp_vscode/esp-idf/components/efuse/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp-tls/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32c3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32h2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s2/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp32s3/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_adc_cal/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_common/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_eth/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_event/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_gdbstub/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_http_client/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_http_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_ota/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_https_server/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_hw_support/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_ipc/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_lcd/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_netif/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_phy/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_pm/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_system/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_timer/Kconfig /home/oscar/esp_vscode/esp-idf/components/esp_wifi/Kconfig /home/oscar/esp_vscode/esp-idf/components/espcoredump/Kconfig /home/oscar/esp_vscode/esp-idf/components/fatfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/freemodbus/Kconfig /home/oscar/esp_vscode/esp-idf/components/freertos/Kconfig /home/oscar/esp_vscode/esp-idf/components/hal/Kconfig /home/oscar/esp_vscode/esp-idf/components/heap/Kconfig /home/oscar/esp_vscode/esp-idf/components/jsmn/Kconfig /home/oscar/esp_vscode/esp-idf/components/libsodium/Kconfig /home/oscar/esp_vscode/esp-idf/components/log/Kconfig /home/oscar/esp_vscode/esp-idf/components/lwip/Kconfig /home/oscar/esp_vscode/esp-idf/components/mbedtls/Kconfig /home/oscar/esp_vscode/esp-idf/components/mdns/Kconfig /home/oscar/esp_vscode/esp-idf/components/mqtt/Kconfig /home/oscar/esp_vscode/esp-idf/components/newlib/Kconfig /home/oscar/esp_vscode/esp-idf/components/nvs_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/openssl/Kconfig /home/oscar/esp_vscode/esp-idf/components/openthread/Kconfig /home/oscar/esp_vscode/esp-idf/components/pthread/Kconfig /home/oscar/esp_vscode/esp-idf/components/spi_flash/Kconfig /home/oscar/esp_vscode/esp-idf/components/spiffs/Kconfig /home/oscar/esp_vscode/esp-idf/components/tcp_transport/Kconfig /home/oscar/esp_vscode/esp-idf/components/unity/Kconfig /home/oscar/esp_vscode/esp-idf/components/vfs/Kconfig /home/oscar/esp_vscode/esp-idf/components/wear_levelling/Kconfig /home/oscar/esp_vscode/esp-idf/components/wifi_provisioning/Kconfig /home/oscar/esp_vscode/esp-idf/components/wpa_supplicant/Kconfig /home/oscar/esp_vscode/esp-idf/components/app_update/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/bootloader/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/esp_rom/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/esptool_py/Kconfig.projbuild /home/oscar/esp_vscode/esp-idf/components/partition_table/Kconfig.projbuild | check_python_dependencies prepare_kconfig_files
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 165):
+	$(summary) GENCONFIG
+	$(call RunConfGen,)
+	touch $(SDKCONFIG_MAKEFILE) $(BUILD_DIR_BASE)/include/sdkconfig.h  # ensure newer than sdkconfig
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/spi_flash/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.112956097
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/freemodbus/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+term_check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 114):
+	${PYTHON} ${IDF_PATH}/tools/check_term.py
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/libsodium/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_gdbstub/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.09295571
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/spiffs/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_pm/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.088955633
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp32s2/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/heap/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/wear_levelling/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/app_trace/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/make/project_config.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:08.792949911
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/bootloader/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/asio/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp32h2/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esptool_py/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/openssl/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/newlib/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.104955943
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.104955943
+#  File has been updated.
+#  Successfully updated.
+
+menuconfig: /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf-idf defconfig | check_python_dependencies term_check prepare_kconfig_files
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 142):
+	$(summary) MENUCONFIG
+	$(call RunConfGen,--dont-write-deprecated)
+	# RunConfGen before menuconfig ensures that deprecated options won't be ignored (they've got renamed)
+	$(call RunMenuConf)
+	# RunConfGen after menuconfig ensures that deprecated options are appended to $(SDKCONFIG) for backward compatibility
+	$(call RunConfGen,)
+
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf-idf: /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+# automatic
+# @ := /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf-idf
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf
+# automatic
+# | := 
+# automatic
+# < := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c
+# automatic
+# ^ := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf
+# automatic
+# ? := /home/oscar/esp_vscode/esp-idf/tools/kconfig/expr.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/expand_env.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/kxgettext.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/mconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/nconf.gui.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/util.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/gconf.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/symbol.c /home/oscar/esp_vscode/esp-idf/tools/kconfig/zconf.y /home/oscar/esp_vscode/esp-idf/tools/kconfig/conf-idf
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+#  recipe to execute (from '/home/oscar/esp_vscode/esp-idf/make/project_config.mk', line 43):
+	@echo "mconf-idf is not required on this platform"
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_http_client/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/confdata.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.088955633
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp32/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project/sdkconfig: menuconfig
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+# Not a target:
+ 
+/home/oscar/esp_vscode/esp-idf/components/nvs_flash/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_phy/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/mbedtls/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/wifi_provisioning/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/efuse/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/pthread/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+size-components:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_https_server/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/menu.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.104955943
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/tools/kconfig/images.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:33:09.09295571
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/app_update/Kconfig.projbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/wpa_supplicant/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/home/oscar/esp_vscode/esp-idf/components/esp_https_ota/Kconfig:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=106/1024=10%, Rehash=0, Collisions=16/245=7%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 240 / storage = 6651 B / avg = 27 B
+# current buf: size = 8162 B / used = 6651 B / count = 240 / avg = 27 B
+
+# strcache performance: lookups = 307 / hit rate = 21%
+# hash-table stats:
+# Load=240/8192=3%, Rehash=0, Collisions=11/307=4%
+# Finished Make data base on Thu Aug 25 18:29:38 2022
+
+ 

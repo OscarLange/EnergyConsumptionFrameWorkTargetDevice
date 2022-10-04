@@ -1,0 +1,26 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project'
+mconf-idf is not required on this platform
+mconf-idf is not required on this platform
+ 
+The following Python requirements are not satisfied:
+pyparsing>=2.0.3,<2.4.0
+idf-component-manager~=1.0
+gdbgui==0.13.2.0
+pygdbmi<=0.9.0.2
+python-socketio<5
+jinja2<3.1  # See https://github.com/espressif/esp-idf/issues/8760
+itsdangerous<2.1
+kconfiglib==13.7.1
+construct==2.10.54
+To install the missing packages, please run "/home/oscar/esp_vscode/esp-idf/install.sh"
+Diagnostic information:
+    IDF_PYTHON_ENV_PATH: /usr/bin/python3
+    Python interpreter used: /usr/bin/python
+    Warning: python interpreter not running from IDF_PYTHON_ENV_PATH
+    PATH: /home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/home/oscar/esp_vscode/esp-idf/tools:/home/oscar/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+WARNING: The TERM environment variable is not defined. The curses-based menuconfig will probably fail to run. Please consult the documentation of your terminal to set it up.
+make: Leaving directory '/home/oscar/Dokumente/UNI/6.Semester/MasterThesis/sample_project'
+ 
+make: *** No rule to make target 'check_python_dependencies', needed by 'all'.
+
