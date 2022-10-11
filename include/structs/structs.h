@@ -5,7 +5,7 @@
 #define NONE_VALUE "NONE_VALUE"  
 
 //200 sec run time
-#define RUN_TIME 200000
+#define RUN_TIME 60000
 
 struct TABLE_ENTRY {
     char task_name[configMAX_TASK_NAME_LEN];

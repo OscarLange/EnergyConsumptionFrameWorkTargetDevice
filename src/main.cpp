@@ -8,6 +8,7 @@ static RTC_NOINIT_ATTR  int max_freq;
 
 char config_msg[] = "Request config";
 char work_msg[] = "Get work";
+char bo_msg[] = "Brownout";
 int restart = 0;
 int work_mode = 0;
 int cpu_utilization = 0;
@@ -15,6 +16,7 @@ int cpu_utilization = 0;
 extern "C" void collect_stats(struct TABLE_ENTRY entries[], int work_mode, int cpu_util);
 extern "C" void init_wifi();
 extern "C" void restart_wifi();
+extern "C" void start_msg_task(void);
 
 //send msg over tcp
 void Main::send_msg(char *payload, bool get_info, bool get_work)
@@ -114,6 +116,25 @@ void Main::setup(void)
         //Seting work
         std::cout << work_msg << "\n";
         App.send_msg(work_msg, false, true);
+    } 
+    else if(reason == ESP_RST_BROWNOUT) {
+        esp_pm_config_esp32_t pm_config = {
+                .max_freq_mhz = max_freq,
+                .min_freq_mhz = max_freq,
+                .light_sleep_enable = false
+            };
+        ESP_ERROR_CHECK( esp_pm_configure(&pm_config) );
+        vTaskDelay(pdMS_TO_TICKS(1000));
+
+        //connect to WiFi
+        init_wifi();
+
+        App.send_msg(bo_msg, false, false);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+
+        //Seting work
+        std::cout << work_msg << "\n";
+        App.send_msg(work_msg, false, true);
     } else {
         vTaskDelay(pdMS_TO_TICKS(1000));
 
@@ -137,10 +158,22 @@ void Main::setup(void)
 
 extern "C" void app_main(void)
 {
-    App.setup();
-    while (true)
-    {
-        vTaskDelay(pdMS_TO_TICKS(1000));
-        App.run();
-    }
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    esp_pm_config_esp32_t pm_config = {
+                .max_freq_mhz = 240,
+                .min_freq_mhz = 240,
+                .light_sleep_enable = false
+            };
+    ESP_ERROR_CHECK( esp_pm_configure(&pm_config) );
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    //connect to WiFi
+    init_wifi();
+    start_msg_task();
+
+    // App.setup();
+    // while (true)
+    // {
+    //     vTaskDelay(pdMS_TO_TICKS(1000));
+    //     App.run();
+    // }
 }
