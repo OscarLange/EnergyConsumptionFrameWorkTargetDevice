@@ -1,5 +1,5 @@
 set(SOURCES main.cpp
-            work/work.c tcp/tcp.cpp wifi/wifi.c http/http.c)
+            work/work.c tcp/tcp.cpp wifi/wifi.c http/http.c preproc/preproc.c)
             
 idf_component_register(SRCS ${SOURCES}
                     INCLUDE_DIRS . ../include/tcp ../include/structs

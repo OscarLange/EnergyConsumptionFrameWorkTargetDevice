@@ -165,7 +165,7 @@ void msg_task(void *arg)
         {
             index = 0;
         }
-        vTaskDelay(pdMS_TO_TICKS(3000));
+        vTaskDelay(pdMS_TO_TICKS(1200));
     }
     
 

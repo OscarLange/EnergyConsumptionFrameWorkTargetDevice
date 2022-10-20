@@ -90,8 +90,8 @@ void wifi_init_sta(void)
 
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "FRITZ!Box 6660 Cable JA",
-            .password = "54296498493652083366",
+            .ssid = "TODO WLAN",
+            .password = "TODO PASSWORD",
             .pmf_cfg.capable = true,
             .pmf_cfg.required = false,
             .threshold.authmode = WIFI_AUTH_WPA2_PSK,

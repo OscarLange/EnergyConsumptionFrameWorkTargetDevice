@@ -17,7 +17,7 @@ extern "C" void collect_stats(struct TABLE_ENTRY entries[], int work_mode, int c
 extern "C" void init_wifi();
 extern "C" void restart_wifi();
 extern "C" void start_msg_task(void);
-
+extern "C" void start_preproc_task(void);
 //send msg over tcp
 void Main::send_msg(char *payload, bool get_info, bool get_work)
 {
@@ -169,7 +169,7 @@ extern "C" void app_main(void)
     //connect to WiFi
     init_wifi();
     start_msg_task();
-
+    // start_preproc_task();
     // App.setup();
     // while (true)
     // {
